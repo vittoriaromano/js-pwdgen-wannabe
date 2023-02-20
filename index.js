@@ -9,10 +9,19 @@ alert("benvenuto");
 // aggiungo i prompt e li visualizzo su console
         // nome
 const nome = prompt("come ti chiami?");
-console.log(nome);
+
        // cognome
 const cognome = prompt("e di cognome?");
-console.log(cognome);
+
        // colore preferito
 const colorePreferito = prompt("il tuo colore preferito?");
-console.log(colorePreferito);
+
+       // visualizzo su console
+const password = nome + cognome + colorePreferito + '89';
+console.log(password)
+
+
+// sostituisco h1 con i prompt
+
+document.getElementById("pass").innerHTML = password;
+console.log(document.getElementById("pass").innerHTML = password)
